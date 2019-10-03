@@ -1,0 +1,191 @@
+@charset "iso-8859-9";
+/* CSS Document */
+
+body{margin:0; padding:0; width:1365px;}
+#anasyf{	background-image:url(images/8.png);	width:1365px;	height:554px;	margin-top:50px;}
+.ilksyf {padding:295px 0 100px 349px;}
+.ilksyf a {	margin-left:150px;	font-size: 28px;	color: #FFF;	text-decoration:none;	font-family: "Action Man";	border-top-color: #FFF;	border-right-color: #FFF;	border-bottom-color: #FFF;	border-left-color: #FFF;          }
+.kayýt a {	margin-left:627px;; font-size: 18px;	color: #00F;	text-decoration:none;	font-family: "Action Man";	border-top-color: #FFF;	border-right-color: #FFF;	border-bottom-color: #FFF;	border-left-color: #FFF;          }
+#giris{	background-image:url(images/1.png); width:1365px;	height:554px;	margin-top: 50px; }
+.giris{width:300px; height:100px; margin:50px 0 0 300px; padding:230px 0 0 220px;}
+#giris_ogrtm{background-image:url(images/1.png); width:1365px;	height:554px;	margin-top:50px; }
+.giris_ogrtm{width:300px; height:100px; margin:50px 0 0 300px; padding:170px 0 0 220px;}
+#giris_panel{
+	background-color:rgba(200, 200, 200, 0.7);
+	box-shadow:rgba(200, 200, 200, 0.7) 0 0 30px 23px;
+	width:300px;
+	height:150px;
+	padding:10px;
+	}
+#giris_panel_ogrtm{
+	background-color:rgba(200, 200, 200, 0.7);
+	box-shadow:rgba(200, 200, 200, 0.7) 0 0 30px 23px;
+	width:300px;
+	height:208px;
+	padding:10px;
+	}
+
+#ogrencihesap { background-image:url(images/arka.png);  width:1349px;  height:1100px; padding-top:85px;       }
+
+.orta { width:850px; height:600px; background-color:#FFF; margin-left:100px; border-radius:15px;}
+
+::focus{outline:none;}
+#tasiyici{
+	width:900px;
+	text-align:left;
+	margin:0 auto;
+	clear:both;
+}
+#giris_alani{
+	margin:80px auto;
+	height:400px;
+	width:600px;
+	border-radius:16px;
+	border:2px solid #ddd;
+}
+#giris_alani_kayit{
+	margin:20px 0 0 100px;;
+	height:900px;
+	width:700px;
+	border-radius:16px;
+	border:2px solid #ddd;
+	background-color:#ffC;
+}
+#giris_formu_tasiyici{
+	width:500px;
+	height:300px;
+	margin:30px 50px 50px 50px;
+	padding:10px;	
+}
+#ogrenci_baslik{
+	font-size:22px;
+	margin-left:30px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.form_tasiyici{
+	border:2px solid #e5e5e5;
+	margin-left:8px;
+	padding:26px 24px 24px;
+	background-color:rgba(200, 200, 200, .1);
+	margin:15px 0 0 0;
+	border-radius:8px;
+	box-shadow:rgba(200, 200, 200, 0.7) 0 14px 50px -1px;
+}
+#sonuc{
+	width:100%;
+	height:25px;
+	font-size:14px;
+	margin-bottom:-13px
+}
+/* Formlar -> [4] */
+.kayit_formu{
+	border-radius:4px;
+	box-shadow:none;
+	border:1px solid #999;
+	margin:2px 0 4px 0;
+	width:310px;
+	padding:5px 3px 3px 35px;
+	line-height:29px;
+	font-size:15px;
+	color:#555;
+	font-weight:500;
+	height:25px;
+}
+.kayit_formu:focus{
+	outline:none;	
+}
+#ogrenci_giris{
+	background:url(images/form-user.png) no-repeat 6px 8px;
+}
+#sifre_giris{
+	background:url(images/form-sifre.png) no-repeat 6px 8px;	
+	
+}
+#eposta_giris{
+	background:url(images/form-mail.png) no-repeat 6px 8px;
+}
+
+label{margin-left:2px;}
+
+.submit {
+	margin-top:-8px;
+	float:right;
+    color: #6e6e6e;
+    font: bold 12px Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    padding: 5px 12px;
+    position: relative;
+    display: inline-block;
+    text-shadow: 0 1px 0 #fff;
+    -webkit-transition: border-color .218s;
+    -moz-transition: border .218s;
+    -o-transition: border-color .218s;
+    transition: border-color .218s;
+    background: #f3f3f3;
+    background: -webkit-gradient(linear,0% 40%,0% 70%,from(#F5F5F5),to(#F1F1F1));
+    background: -moz-linear-gradient(linear,0% 40%,0% 70%,from(#F5F5F5),to(#F1F1F1));
+    border: solid 1px #dcdcdc;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    
+}
+.submit_ogrnc {
+	margin-top:-8px;
+	float:right;
+    color: #6e6e6e;
+    font: bold 12px Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    padding: 5px 12px;
+    position: relative;
+    display: inline-block;
+    text-shadow: 0 1px 0 #fff;
+    -webkit-transition: border-color .218s;
+    -moz-transition: border .218s;
+    -o-transition: border-color .218s;
+    transition: border-color .218s;
+    background: #f3f3f3;
+    background: -webkit-gradient(linear,0% 40%,0% 70%,from(#F5F5F5),to(#F1F1F1));
+    background: -moz-linear-gradient(linear,0% 40%,0% 70%,from(#F5F5F5),to(#F1F1F1));
+    border: solid 1px #dcdcdc;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+	margin-right:50px;
+    
+}
+.submit:active {
+    border: 1px solid #ddd;
+    -webkit-box-shadow: inset 0 0 1px 1px #ccc, 0 0.5px 0 0 #ccc;
+    -moz-box-shadow: inset 0 0 1px 1px #ccc, 0 0.5px 0 0 #ccc;
+    box-shadow: inset 0 0 1px 1px #ccc, 0 0.5px 0 0 #ccc;
+}
+
+.form_tasiyici_ogrtm{
+	
+	padding:0 24px 24px;
+	
+	
+	
+}
+
+.kayit_formu_ogrtm{
+	border-radius:4px;
+	box-shadow:none;
+	border:1px solid #FFF;
+	margin:2px 0 4px 0;
+	width:210px;
+	padding:5px 3px 3px 35px;
+	line-height:29px;
+	font-size:15px;
+	color:#FFFFFF;
+	font-weight:500;
+	height:25px;
+	
+}
+
+.kayýt_label_ogrtm{
+	color:#FFF;
+	
+	}
